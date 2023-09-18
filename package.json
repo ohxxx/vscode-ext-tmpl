@@ -1,16 +1,16 @@
 {
-  "name": "xxx",
-  "displayName": "xxx",
+  "name": "[xxx]",
+  "displayName": "[xxx]",
   "version": "0.0.0",
-  "description": "xxx for VS Code",
+  "description": "[xxx] for VS Code",
   "publisher": "xxxDeveloper",
-  "homepage": "https://github.com/xxxDeveloper/xxx#readme",
+  "homepage": "https://github.com/ohxxx/[xxx]#readme",
   "bugs": {
-    "url": "https://github.com/xxxDeveloper/xxx/issues"
+    "url": "https://github.com/ohxxx/[xxx]/issues"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/xxxDeveloper/xxx"
+    "url": "https://github.com/ohxxx/[xxx]"
   },
   "main": "./dist/extension.js",
   "files": [
@@ -21,7 +21,7 @@
   ],
   "sideEffects": false,
   "engines": {
-    "vscode": "^1.66.2"
+    "vscode": "^1.70.0"
   },
   "contributes": {
     "commands": [],
@@ -42,14 +42,14 @@
     "pack": "vsce package --no-dependencies --allow-star-activation"
   },
   "devDependencies": {
-    "@antfu/eslint-config": "^0.21.1",
-    "@types/node": "^17.0.29",
-    "@types/vscode": "^1.66.0",
-    "eslint": "^8.14.0",
-    "tsup": "^5.12.6",
-    "typescript": "^4.6.3",
-    "vite": "^2.9.6",
-    "vitest": "^0.10.0",
-    "vsce": "^2.7.0"
+    "@ohxxx/eslint-config": "^0.0.4",
+    "@types/node": "^17.0.45",
+    "@types/vscode": "^1.82.0",
+    "eslint": "^8.49.0",
+    "tsup": "^5.12.9",
+    "typescript": "^4.9.5",
+    "vite": "^2.9.16",
+    "vitest": "^0.10.5",
+    "vsce": "^2.15.0"
   }
 }
